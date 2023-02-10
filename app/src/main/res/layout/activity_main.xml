@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:src="@drawable/aditya02"
+         />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:text="I am pursuing B.E. Entc. at Smt.Kashibai Navale College of Engineering Vadgoan Bk (affiliated to SPPU University), Pune.
+        I am currently enrolled in the Third year of Engineering. I am extremely passionate about Technology and that enthusiasm brought me to the Tech world. Being a student Programming really excites me as a learner. I wish to enjoy this journey along with gaining and imparting knowledge, push my limits and see what life has in store for me!
+        Cheers!!"
+         />
+
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:src="@drawable/logo"
+        />
+
+
+</LinearLayout>
